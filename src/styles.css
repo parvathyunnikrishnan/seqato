@@ -454,12 +454,12 @@ input:focus {
     .technical_justify {
         margin: 0 auto;
         justify-content: center;
-        width: 44%;
-        font-size: 15px;
+        width: 43%;
+        font-size: 18px;
         margin-top: 40px;
     }
     .subhead {
-        font-size: 10px;
+        font-size: 12px;
         text-align: center;
         margin: 13px auto;
         width: 76%;
@@ -521,8 +521,8 @@ input:focus {
         padding-bottom: 10px;
     }
     .domain_heading {
-        font-size: 20px;
-        width: 56%;
+        font-size: 18px;
+        width: 50%;
         margin: 0 auto;
         margin-top: 40px;
     }
@@ -540,6 +540,7 @@ input:focus {
         margin-left: 86px;
     }
     .team_justify img {
+        display: flex;
         margin: 0 auto;
         width: 100px;
         height: 100px;
@@ -557,6 +558,9 @@ input:focus {
     }
     .team_contents {
         margin-top: 10px;
+    }
+    .team_contents h1 {
+        font-size: 20px;
     }
     .teams h1,
     h2 {
