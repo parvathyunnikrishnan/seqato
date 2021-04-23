@@ -18,9 +18,43 @@ body {
     border-radius: unset;
 }
 
+.slider_tag {
+    position: absolute;
+    z-index: 1000000;
+    top: 20%;
+    /* left: 20%; */
+    /* left: 20px; */
+    /* margin-left: 20%; */
+    width: 100%;
+    /* padding-left: 10%; */
+    color: dodgerblue;
+    text-shadow: antiquewhite;
+}
+
+.slider_tag span {
+    margin: 0 auto;
+    font-size: 30px;
+    padding-left: 473px;
+}
+
 #error {
     display: none;
     color: red;
+}
+
+.logo {
+    padding: 30px;
+    width: 20%;
+    font-family: 'Nunito', sans-serif;
+    color: dodgerblue;
+    font-weight: bold;
+    text-decoration: none;
+    letter-spacing: 0px;
+    font-size: 21px;
+}
+
+#menu_links span {
+    width: 80%;
 }
 
 .menu {
@@ -28,7 +62,6 @@ body {
     font-size: 25px;
     display: flex;
     justify-content: center;
-    border-bottom: 3px solid orange;
     margin-bottom: 0;
     margin-top: 0;
 }
@@ -57,14 +90,20 @@ a.menu_active {
 
 .technical_justify {
     font-size: 30px;
-    display: flex;
     justify-content: center;
-    border-bottom: 3px solid dodgerblue;
     width: 20%;
     padding: 17px;
     margin: 0 auto;
     padding-bottom: 6px;
     margin-top: 70px;
+}
+
+.technical_justify::after {
+    border-bottom: 3px solid dodgerblue;
+    content: '';
+    display: block;
+    width: 248px;
+    padding: 5px;
 }
 
 .subhead {
@@ -78,6 +117,16 @@ a.menu_active {
 
 .blue_border {
     border: 3px solid blue;
+}
+
+.blue_border:hover,
+.red_border:hover,
+.yellow_border:hover,
+.violet_border:hover,
+.orange_border:hover,
+.green_border:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transition: opacity 0.3s ease-in-out;
 }
 
 .red_border {
@@ -144,14 +193,30 @@ a.menu_active {
     line-height: 23px;
 }
 
-.whyus_justify h1 {
+.why_us_head {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 23px;
+    font-weight: 600;
+    width: auto;
+    line-height: 2.6;
+}
+
+.why_us_head::after {
+    content: '';
+    border-bottom: 3px solid dodgerblue;
+    display: block;
+    width: 201px;
+}
+
+
+/* .whyus_justify h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 23px;
     font-weight: 600;
     border-bottom: 3px solid dodgerblue;
     width: 199px;
     line-height: 2.6;
-}
+} */
 
 .whyus_justify h2 {
     font-weight: 600;
@@ -186,7 +251,7 @@ a.menu_active {
 
 .whyus_content section {
     display: flex;
-    margin-top: 9px;
+    margin-top: 28px;
 }
 
 .whyus_right {
@@ -231,15 +296,20 @@ a.menu_active {
 }
 
 .domain_heading {
-    border-bottom: 3px solid dodgerblue;
     font-size: 28px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: 21%;
     padding: 10px;
-    display: flex;
     justify-content: center;
     margin: 0 auto;
     margin-top: 70px;
+}
+
+.domain_heading::after {
+    border-bottom: 3px solid dodgerblue;
+    content: '';
+    display: block;
+    padding: 5px;
 }
 
 .domain_subheading {
@@ -279,6 +349,12 @@ a.menu_active {
     height: 200px;
     border-radius: 50%;
     display: flex;
+}
+
+.domain_contents img:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transition: opacity 1.5s ease-in-out;
+    transform: scaleX(1.2);
 }
 
 .team_contents {
@@ -403,6 +479,8 @@ input:focus {
     background-color: #fff;
     top: 0;
     z-index: 1;
+    border-bottom: 3px solid orange;
+    display: flex;
 }
 
 .address_justify address {
@@ -457,6 +535,12 @@ input:focus {
         width: 43%;
         font-size: 18px;
         margin-top: 40px;
+    }
+    .technical_justify::after {
+        width: 95%;
+    }
+    .why_us_head::after {
+        width: 100%;
     }
     .subhead {
         font-size: 12px;
