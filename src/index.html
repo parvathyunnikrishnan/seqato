@@ -6,12 +6,15 @@
     <title>Seqato</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
+
 </head>
 
 <body>
-    <div id="menu_links">
-        <a class="logo" href="https://mobiri.se">S E Q A T O</a>
-        <span>
+    <section class="menu_bar" once="menu1">
+        <nav class="navbar navbar-dropdown navbar-short navbar-fixed-top">
+            <div id="menu_links">
+                <a class="logo" href="https://mobiri.se">S E Q A T O</a>
+                <span>
             <ul class="menu">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#why_us">Why Us</a></li>
@@ -21,31 +24,35 @@
                 <li><a href="#contact">Contact Us</a></li>
             </ul>
         </span>
+            </div>
+        </nav>
+        <header>
+    </section>
+    <div class="flexslider" id="home">
+        <ul class="slides">
+            <li>
+                <img src="assets/images/carousel1.jpg" />
+                <div class="slider_tag">
+                    <span>Seqato Software Solutions</span>
+                </div>
+            </li>
+            <li>
+                <img src="assets/images/carousel2.jpg" />
+                <div class="slider_tag">
+                    <span>Seqato Software Solutions</span>
+                </div>
+            </li>
+            <li>
+                <img src="assets/images/carousel3.jpg" />
+                <div class="slider_tag">
+                    <span>Seqato Software Solutions</span>
+                </div>
+            </li>
+        </ul>
     </div>
-    <header>
-        <div class="flexslider" id="home">
-            <ul class="slides">
-                <li>
-                    <img src="assets/images/carousel1.jpg" />
-                    <div class="slider_tag">
-                        <span>Seqato Software Solutions</span>
-                    </div>
-                </li>
-                <li>
-                    <img src="assets/images/carousel2.jpg" />
-                    <div class="slider_tag">
-                        <span>Seqato Software Solutions</span>
-                    </div>
-                </li>
-                <li>
-                    <img src="assets/images/carousel3.jpg" />
-                    <div class="slider_tag">
-                        <span>Seqato Software Solutions</span>
-                    </div>
-                </li>
-            </ul>
-        </div>
     </header>
+
+
     <section class="whyus_justify" id="why_us">
         <div class="whyusleft_justify">
             <section>
@@ -217,6 +224,12 @@
                     return true;
                 }
             }
+            $(function() {
+                $(document).scroll(function() {
+                    var $nav = $(".navbar-fixed-top");
+                    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+                });
+            });
         </script>
 </body>
 
