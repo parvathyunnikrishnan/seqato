@@ -181,13 +181,31 @@
                 </div>
             </section>
             <section class="form_justify">
+
                 <form>
-                    <input type="text" id="fname" placeholder="Name*">
-                    <input type="text" id="email" placeholder="Email*">
+                    <div class="container">
+                        <div class="material-textfield">
+                            <input type="text" id="fname" placeholder=" ">
+                            <label>Name*</label>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="material-textfield">
+                            <input type="text" id="email" placeholder=" ">
+                            <label>Email*</label>
+                        </div>
+                    </div>
                     <span id="error">Invalid email</span>
-                    <textarea placeholder="Message*"></textarea>
+                    <div class="container">
+                        <div class="material-textfield">
+                            <textarea placeholder=" "></textarea>
+                            <label>Message*</label>
+                        </div>
+                    </div>
+
                     <input type="button" value="Send message" onclick='Javascript:checkEmail();' />
                 </form>
+
             </section>
         </footer>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js">
