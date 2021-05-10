@@ -497,8 +497,8 @@
          .Address_contents h3 {
              color: black;
              font-weight: 600;
-             font-size: 25px;
-             width: 187px;
+             font-size: 24px;
+             width: 202px;
          }
          
          input[type=text] {
@@ -637,7 +637,6 @@
              text-align: right;
              height: 500px;
              width: 100%;
-             margin-top: 50px;
          }
          
          .gmap_canvas {
@@ -1078,6 +1077,8 @@
                  margin: 0;
                  margin-bottom: 108px;
                  padding: 0;
+                 position: relative;
+                 bottom: 108px;
              }
              .contact_justify h1 {
                  font-size: 17px;
@@ -1193,7 +1194,11 @@
              }
              .cid-swtjrf6VEk {
                  position: relative;
-                 bottom: 107px;
+                 bottom: 161px;
+             }
+             .cid-swtjALlfCj {
+                 position: relative;
+                 bottom: 180px;
              }
              .cid-swtbF1J2g5 .card-wrapper,
              .cid-swtcNOlTba .card-wrapper,
@@ -1201,8 +1206,8 @@
                  position: relative;
                  right: 44px;
                  margin: 25px;
-                 bottom: 87px;
                  width: 313px;
+                 bottom: 99px;
                  padding: 12px;
              }
              .cid-swtbF1J2g5 .card-title,
@@ -1231,6 +1236,10 @@
              .cid-swtjrf6VEk .card-title,
              .cid-swtjALlfCj .card-title {
                  font-size: 17px;
+             }
+             .mapouter {
+                 position: relative;
+                 bottom: 178px;
              }
          }
          
