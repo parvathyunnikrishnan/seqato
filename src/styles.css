@@ -1075,10 +1075,9 @@
              .contact_justify {
                  flex-direction: column;
                  margin: 0;
-                 margin-bottom: 108px;
                  padding: 0;
                  position: relative;
-                 bottom: 108px;
+                 bottom: 90px;
              }
              .contact_justify h1 {
                  font-size: 17px;
