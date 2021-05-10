@@ -1088,13 +1088,16 @@
                  font-size: 12px;
              }
              .contact_justify h3 {
-                 width: 128px;
-                 font-size: 16px;
+                 width: 138px;
+                 font-size: 18px;
              }
              .Address_contents {
                  margin-left: 65px;
              }
              .address_justify {
+                 font-size: 12px;
+             }
+             .address_justify address {
                  font-size: 12px;
              }
              input[type=text] {
