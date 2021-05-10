@@ -88,6 +88,7 @@
                              background: white;
                              opacity: 0.8;
                              margin-left: 41px;
+                             margin-top: 140px;
                              display: flex;
                              width: 413px;
                              justify-content: center;
@@ -1103,7 +1104,7 @@
                                  align-items: center;
                              }
                              .menu {
-                                 /* display: none; */
+                                 display: none;
                              }
                              .contact_justify {
                                  flex-direction: column;
