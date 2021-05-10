@@ -862,7 +862,6 @@
              
              #skills_justify {
                  display: flex;
-                 margin-left: 122px;
              }
              
              #skills_justify h1 {
@@ -916,6 +915,15 @@
              .cid-swtcNOlTba .row,
              .cid-swtcOCKOAw .row {
                  margin: 0 -2rem;
+             }
+             
+             #skills_justify .row {
+                 display: flex;
+                 justify-content: center;
+             }
+             
+             #skills_justify .align-center {
+                 margin-left: 0;
              }
              
              .row {
