@@ -464,7 +464,7 @@
          }
          
          .contact_justify h1 {
-             border-bottom: 3px solid dodgerblue;
+             border-bottom: 2px solid dodgerblue;
              font-size: 31px;
              font-family: Verdana, Geneva, Tahoma, sans-serif;
              width: 45%;
@@ -498,7 +498,11 @@
              color: black;
              font-weight: 600;
              font-size: 24px;
-             width: 202px;
+             width: 182px;
+         }
+         
+         .contact_justify h3:after {
+             border-bottom: 2px solid gray;
          }
          
          input[type=text] {
@@ -1081,14 +1085,17 @@
              }
              .contact_justify h1 {
                  font-size: 17px;
-                 width: 52%;
+                 width: 45%;
                  line-height: 0.6;
+             }
+             .contact_justify h1:after {
+                 border-bottom: 2px solid dodgerblue;
              }
              .contact_justify p {
                  font-size: 11px;
              }
              .contact_justify h3 {
-                 width: 121px;
+                 width: 107px;
                  font-size: 14px;
              }
              .Address_contents {
@@ -1096,6 +1103,9 @@
              }
              .Address_contents h3 {
                  font-weight: unset;
+             }
+             .contact_justify h3:after {
+                 border-bottom: 2px solid gray;
              }
              .address_justify {
                  font-size: 12px;
