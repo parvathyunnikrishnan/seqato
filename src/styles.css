@@ -1082,6 +1082,7 @@
              .contact_justify h1 {
                  font-size: 17px;
                  width: 52%;
+                 line-height: 0.6;
              }
              .contact_justify p {
                  width: 254px;
@@ -1093,6 +1094,9 @@
              }
              .Address_contents {
                  margin-left: 65px;
+             }
+             .Address_contents h3 {
+                 font-weight: unset;
              }
              .address_justify {
                  font-size: 12px;
