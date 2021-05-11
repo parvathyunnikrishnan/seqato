@@ -608,6 +608,7 @@
                              z-index: 1;
                              border-bottom: 3px solid orange;
                              display: flex;
+                             width: 100%;
                              justify-content: space-between;
                          }
                          
@@ -1298,14 +1299,13 @@
                                  max-height: 0;
                                  transition: max-height .2s ease-out;
                                  position: relative;
-                                 left: 167px;
+                                 /* left: 167px; */
                              }
                              .menu a {
                                  font-size: 11px;
                              }
                              #menu_links span {
-                                 width: 8%;
-                                 align-items: flex-end;
+                                 width: auto;
                              }
                              #menu_links ul {
                                  margin: 0;
@@ -1324,6 +1324,7 @@
                              #menu_links .menu-icon {
                                  cursor: pointer;
                                  display: inline-block;
+                                 left: 100px;
                                  position: relative;
                                  user-select: none;
                                  padding: 0px;
