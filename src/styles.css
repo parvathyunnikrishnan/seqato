@@ -653,7 +653,6 @@
                              margin: 0 0.5rem;
                              transition: .1s ease-out;
                              transform-origin: left top;
-                             pointer-events: none;
                          }
                          /*Sample pges*/
                          
