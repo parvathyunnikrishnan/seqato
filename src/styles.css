@@ -489,7 +489,6 @@
                              color: black;
                              font-weight: 600;
                              font-size: 24px;
-                             width: 182px;
                          }
                          
                          .contact_justify h3:after {
@@ -1272,7 +1271,7 @@
                                  margin-top: 6px;
                              }
                              .contact_justify h3::after {
-                                 width: 105px;
+                                 width: 115px;
                              }
                          }
                          
