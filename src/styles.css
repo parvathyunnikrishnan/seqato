@@ -1287,11 +1287,8 @@
                          /* 48em = 768px */
                          
                          @media screen and (max-width: 600px) {
-                             #menu_links li {
-                                 float: left;
-                             }
                              #menu_links li a {
-                                 padding: 20px 30px;
+                                 padding: 6px 16px;
                                  display: block;
                                  border-right: 1px solid #f4f4f4;
                                  text-decoration: none;
@@ -1300,6 +1297,14 @@
                                  clear: both;
                                  max-height: 0;
                                  transition: max-height .2s ease-out;
+                                 position: relative;
+                                 left: 167px;
+                             }
+                             .menu a {
+                                 font-size: 11px;
+                             }
+                             #menu_links span {
+                                 width: 37%;
                              }
                              #menu_links ul {
                                  margin: 0;
@@ -1323,6 +1328,9 @@
                                  user-select: none;
                                  padding: 0px;
                              }
+                             .navbar-fixed-top.scrolled .menu a {
+                                 color: #000;
+                             }
                              #menu_links .menu-icon .navicon {
                                  background: #333;
                                  display: block;
@@ -1340,6 +1348,9 @@
                                  position: absolute;
                                  transition: all .2s ease-out;
                                  width: 100%;
+                             }
+                             .navbar .menu-icon .navicon {
+                                 background-color: white;
                              }
                              #menu_links .menu-icon .navicon:before {
                                  top: 5px;
