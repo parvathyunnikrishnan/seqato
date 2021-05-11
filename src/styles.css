@@ -927,8 +927,8 @@
                              .cid-swtbF1J2g5 .card-wrapper,
                              .cid-swtcNOlTba .card-wrapper,
                              .cid-swtcOCKOAw .card-wrapper {
-                                 /*position: relative;
-                                 right: 28px;*/
+                                 position: relative;
+                                 right: 18px;
                                  margin: 25px;
                                  width: 319px;
                                  bottom: 99px;
