@@ -1267,11 +1267,11 @@
                                  line-height: calc( 1.4 * (1.0875rem + (1.25 - 1.0875) * ((100vw - 20rem) / (48 - 20))));
                              }
                              .contact_justify h1::after {
-                                 width: 97px;
+                                 width: 92px;
                                  margin-top: 6px;
                              }
                              .contact_justify h3::after {
-                                 width: 115px;
+                                 width: 117px;
                              }
                          }
                          
