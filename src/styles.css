@@ -608,6 +608,7 @@
                              z-index: 1;
                              border-bottom: 3px solid orange;
                              display: flex;
+                             justify-content: space-between;
                          }
                          
                          .address_justify address {
@@ -1303,7 +1304,8 @@
                                  font-size: 11px;
                              }
                              #menu_links span {
-                                 width: 37%;
+                                 width: 8%;
+                                 align-items: flex-end;
                              }
                              #menu_links ul {
                                  margin: 0;
@@ -1322,7 +1324,6 @@
                              #menu_links .menu-icon {
                                  cursor: pointer;
                                  display: inline-block;
-                                 left: 258px;
                                  position: relative;
                                  user-select: none;
                                  padding: 0px;
@@ -1336,7 +1337,7 @@
                                  display: block;
                                  height: 2px;
                                  position: relative;
-                                 /* transition: background .2s ease-out; */
+                                 transition: background .2s ease-out;
                                  width: 18px;
                              }
                              #menu_links .menu-icon .navicon:before,
@@ -1359,7 +1360,6 @@
                              #menu_links .menu-icon .navicon:after {
                                  top: -5px;
                              }
-                             /* menu btn */
                              #menu_links .menu-btn {
                                  display: none;
                              }
