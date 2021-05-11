@@ -162,300 +162,6 @@
                              transform: scaleX(1.1);
                          }
                          
-                         .technical_justify {
-                             font-size: 32px;
-                             font-weight: 600;
-                             width: auto;
-                             line-height: 1.6;
-                             margin-left: 522px;
-                             margin-top: 70px;
-                         }
-                         
-                         .technical_justify::after {
-                             content: '';
-                             border-bottom: 3px solid dodgerblue;
-                             display: block;
-                             width: 274px;
-                         }
-                         
-                         .subhead {
-                             font-size: 20px;
-                             font-weight: 800;
-                             display: flex;
-                             justify-content: center;
-                             padding: 20px;
-                         }
-                         
-                         .blue_border {
-                             border: 1px solid blue;
-                         }
-                         
-                         .blue_border:hover,
-                         .red_border:hover,
-                         .yellow_border:hover,
-                         .violet_border:hover,
-                         .orange_border:hover,
-                         .green_border:hover {
-                             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-                             transition: opacity 0.3s ease-in-out;
-                         }
-                         
-                         .red_border {
-                             border: 1px solid red;
-                         }
-                         
-                         .yellow_border {
-                             border: 1px solid yellow;
-                         }
-                         
-                         .tech_capability_content {
-                             width: 30%;
-                             height: 150px;
-                             padding-bottom: 14px;
-                             padding-top: 19px;
-                         }
-                         
-                         .green_border {
-                             border: 1px solid green;
-                         }
-                         
-                         .orange_border {
-                             border: 1px solid orange;
-                         }
-                         
-                         .violet_border {
-                             border: 1px solid violet;
-                         }
-                         
-                         .tech_capability {
-                             width: 100%;
-                         }
-                         
-                         .tech_set_first {
-                             display: flex;
-                             justify-content: space-between;
-                             width: 80%;
-                             margin: 0 auto;
-                         }
-                         
-                         .tech_set_second {
-                             display: flex;
-                             justify-content: space-between;
-                             width: 80%;
-                             margin: 0 auto;
-                             margin-top: 84px;
-                             margin-bottom: 27px;
-                         }
-                         
-                         .box_heading {
-                             display: flex;
-                             justify-content: left;
-                             padding-left: 31px;
-                             font-size: 22px;
-                             font-weight: 600;
-                         }
-                         
-                         .box_subheading {
-                             font-size: 18px;
-                             color: #454343;
-                             margin: 0 31px;
-                             line-height: 23px;
-                         }
-                         
-                         .why_us_head {
-                             margin-top: 28px;
-                             font-size: 29px;
-                             width: auto;
-                             line-height: 1.6;
-                             font-weight: 600;
-                         }
-                         
-                         .why_us_head::after {
-                             content: '';
-                             border-bottom: 3px solid dodgerblue;
-                             display: block;
-                             width: 186px;
-                         }
-                         
-                         .whyus_justify h2 {
-                             font-weight: 600;
-                             font-size: 21px;
-                             padding-top: 40px;
-                         }
-                         
-                         .whyus_content p {
-                             font-family: calibri light;
-                             padding: 16px;
-                             font-size: 15px;
-                             background-color: #f5f5f5;
-                             width: 65%;
-                             margin-right: 42px;
-                             margin-top: 12px;
-                             line-height: 1.6;
-                             font-weight: 600;
-                             padding-top: 17px;
-                             padding-bottom: 17px;
-                         }
-                         
-                         .whyus_justify {
-                             display: flex;
-                         }
-                         
-                         .whyusleft_justify {
-                             width: 73%;
-                             margin: 0 auto;
-                         }
-                         
-                         .whyus_content {
-                             display: flex;
-                         }
-                         
-                         .whyus_content section {
-                             display: flex;
-                             margin-top: 28px;
-                         }
-                         
-                         .whyus_right {
-                             margin-left: 193px;
-                             margin-top: 124px;
-                         }
-                         
-                         .whyus_right section {
-                             display: flex;
-                         }
-                         
-                         .whyusright_content {
-                             padding-left: 24px;
-                             display: flex;
-                             flex-direction: column;
-                         }
-                         
-                         .whyus_midright {
-                             padding: 22px;
-                         }
-                         
-                         .whyus_botright {
-                             padding: 19px;
-                         }
-                         
-                         .num_size {
-                             font-size: 32px;
-                             font-weight: 600;
-                         }
-                         
-                         .sub_size {
-                             font-size: 19px;
-                             font-weight: 600;
-                         }
-                         
-                         .dot {
-                             height: 27px;
-                             width: 27px;
-                             background-color: #3bb9ff;
-                             border-radius: 66%;
-                             padding: 2px;
-                         }
-                         
-                         .domain_heading {
-                             font-size: 28px;
-                             font-weight: 600;
-                             font-family: Verdana, Geneva, Tahoma, sans-serif;
-                             width: 23%;
-                             padding: 10px;
-                             justify-content: center;
-                             margin: 0 auto;
-                             margin-top: 70px;
-                         }
-                         
-                         .domain_heading::after {
-                             border-bottom: 3px solid dodgerblue;
-                             content: '';
-                             display: block;
-                             padding: 5px;
-                         }
-                         
-                         .domain_subheading {
-                             font-size: 21px;
-                             padding: 20px;
-                             font-weight: 600;
-                             display: flex;
-                             justify-content: center;
-                         }
-                         
-                         .domain_contents {
-                             display: flex;
-                             justify-content: space-between;
-                             width: 80%;
-                             margin: 0 auto;
-                         }
-                         
-                         .domain_contents h2 {
-                             line-height: 1.6;
-                             text-align: center;
-                             font-size: 20px;
-                             font-weight: 600;
-                         }
-                         
-                         .domain_contents p {
-                             font-size: 16px;
-                             font-weight: 600;
-                             width: 193px;
-                             font-family: calibri light;
-                             background-color: #f5f5f5;
-                             padding: 21px;
-                             line-height: 1.6;
-                             padding: 10px 10px 10px 9px;
-                         }
-                         
-                         .domain_contents img {
-                             display: block;
-                             width: 200px;
-                             height: 200px;
-                             border-radius: 50%;
-                             display: flex;
-                         }
-                         
-                         .domain_contents img:hover {
-                             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-                             transition: opacity 1.5s ease-in-out;
-                         }
-                         
-                         .team_contents {
-                             display: flex;
-                             align-items: center;
-                             flex-direction: column;
-                             margin-top: 50px;
-                         }
-                         
-                         .team_contents h1 {
-                             font-size: 29px;
-                             border-bottom: 3px solid dodgerblue;
-                             padding: 8px;
-                         }
-                         
-                         .team_justify {
-                             display: flex;
-                             width: 80%;
-                             justify-content: space-between;
-                             margin: 0 auto;
-                             color: dodgerblue;
-                         }
-                         
-                         .teams h1 {
-                             font-size: 30px;
-                             font-weight: 900;
-                         }
-                         
-                         .teams h2 {
-                             font-weight: 600;
-                         }
-                         
-                         .team_justify img {
-                             width: 200px;
-                             height: 200px;
-                             border-radius: unset;
-                         }
-                         
                          .contact_justify h1 {
                              font-size: 31px;
                              font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -471,7 +177,6 @@
                          }
                          
                          .contact_justify h3 {
-                             width: 152px;
                              font-size: 20px;
                          }
                          
@@ -655,7 +360,6 @@
                              transition: .1s ease-out;
                              transform-origin: left top;
                          }
-                         /*Sample pges*/
                          
                          .cid-swtfTArgJ9 {
                              padding-top: 90px;
@@ -1115,7 +819,7 @@
                                  font-size: 14px;
                              }
                              .Address_contents {
-                                 margin-left: 65px;
+                                 margin-left: 82px;
                              }
                              .Address_contents h3 {
                                  font-weight: unset;
@@ -1224,7 +928,7 @@
                              .cid-swtcNOlTba .card-wrapper,
                              .cid-swtcOCKOAw .card-wrapper {
                                  position: relative;
-                                 right: 45px;
+                                 right: 28px;
                                  margin: 25px;
                                  width: 319px;
                                  bottom: 99px;
@@ -1285,7 +989,6 @@
                              display: flex;
                              flex-direction: column;
                          }
-                         /* 48em = 768px */
                          
                          @media screen and (max-width: 600px) {
                              #menu_links li a {
@@ -1299,7 +1002,6 @@
                                  max-height: 0;
                                  transition: max-height .2s ease-out;
                                  position: relative;
-                                 /* left: 167px; */
                              }
                              .menu a {
                                  font-size: 11px;
