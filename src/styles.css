@@ -1103,11 +1103,12 @@
                              .contact_justify h1 {
                                  font-size: 17px;
                                  width: 45%;
-                                 line-height: 0.6;
+                                 line-height: 1.6;
+                                 padding: 0px;
                              }
                              .contact_justify p {
                                  font-size: 11px;
-                                 line-height: 0.6;
+                                 line-height: 1.6;
                              }
                              .contact_justify h3 {
                                  width: 107px;
