@@ -1091,7 +1091,8 @@
                                  align-items: center;
                              }
                              .menu {
-                                 display: none;
+                                 display: flex;
+                                 flex-direction: column;
                              }
                              .contact_justify {
                                  flex-direction: column;
@@ -1297,8 +1298,9 @@
                                  text-decoration: none;
                              }
                              #menu_links .menu {
-                                 clear: none;
-                                 max-height: none;
+                                 clear: both;
+                                 max-height: 0;
+                                 transition: max-height .2s ease-out;
                              }
                              #menu_links ul {
                                  margin: 0;
