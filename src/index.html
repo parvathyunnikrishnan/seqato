@@ -489,13 +489,13 @@
         $(document).ready(function() {
 
 
-            // Cache selectors
+
             var lastId,
                 topMenu = $("ul.menu"),
                 topMenuHeight = topMenu.outerHeight() + 1,
-                // All list items
+
                 menuItems = topMenu.find("a"),
-                // Anchors corresponding to menu items
+
                 scrollItems = menuItems.map(function() {
                     var item = $($(this).attr("href"));
                     if (item.length) {
@@ -503,8 +503,7 @@
                     }
                 });
 
-            // Bind click handler to menu items
-            // so we can get a fancy scroll animation
+
             menuItems.click(function(e) {
                 var href = $(this).attr("href"),
                     offsetTop = href === "#" ? 0 : $(href).offset().top - topMenuHeight + 1;
@@ -514,23 +513,23 @@
                 e.preventDefault();
             });
 
-            // Bind to scroll
+
             $(window).scroll(function() {
-                // Get container scroll position
+
                 var fromTop = $(this).scrollTop() + topMenuHeight;
 
-                // Get id of current scroll item
+
                 var cur = scrollItems.map(function() {
                     if ($(this).offset().top < fromTop)
                         return this;
                 });
-                // Get the id of the current element
+
                 cur = cur[cur.length - 1];
                 var id = cur && cur.length ? cur[0].id : "";
                 if (lastId !== id) {
                     lastId = id;
                     console.log(id);
-                    // Set/remove active class
+
                     menuItems
                         .parent().removeClass("active")
                         .end().filter("[href=\\#" + id + "]").parent().addClass("active");
@@ -569,37 +568,19 @@
             $(".panel-title").on("click", function() {
                 if ($(this).hasClass("collapsed")) {
                     $(".panel-title").addClass("collapsed");
-                    // $(this).removeClass("collapsed");
+
                     $(".panel-collapse").slideUp(200);
                     $(this).removeClass("collapsed ");
                     $(this).parent()
                         .siblings()
                         .slideDown(200);
-                    // $(this).parent()
-                    //     .siblings()
-                    //     .slideUp(200);
-                    // $(".panel-title .mbri-plus")
-                    //     .removeClass("inactive")
-                    //     .addClass("active");
+
                 } else {
-                    // $(this).parent()
-                    //     .siblings()
-                    //     .slideUp(200);
 
-
-                    // $(".panel-title i")
-                    //     .removeClass("inaactive")
-                    //     .addClass("active");
-                    // $(this)
-                    //     .find(".mbri-plus")
-                    //     .removeClass("active")
-                    //     .addClass("inactive");
                     $(".panel-title").addClass("collapsed");
-                    // $(this).removeClass("collapsed");
+
                     $(".panel-collapse").slideUp(200);
-                    // $(this).parent()
-                    //     .siblings()
-                    //     .slideDown(200);
+
                 }
             });
         });

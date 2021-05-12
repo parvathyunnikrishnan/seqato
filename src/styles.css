@@ -114,9 +114,8 @@
                          }
                          
                          .menu_bar img {
-                             width: 100px;
-                             height: 30px;
-                             margin-top: 29px;
+                             width: 174px;
+                             height: 66px;
                          }
                          
                          #menu_links {
@@ -142,9 +141,9 @@
                              padding: 30px;
                              color: #000;
                              text-decoration: none;
-                             font-weight: 600;
+                             font-weight: 300;
                              font-family: "Droid Serif", sans-serif;
-                             font-size: 18px;
+                             font-size: 16px;
                          }
                          
                          .menu a:hover {
@@ -158,14 +157,14 @@
                              padding: 12px;
                              margin-top: 18px;
                              color: dodgerblue !important;
-                             transition: transform 450ms ease-in-out;
+                             transition: transform 450m cubic-bezier(0.6, 0.28, 0.74, 0.05);
                              transform: scaleX(1.1);
+                             background: #fbfbfb;
                          }
                          
                          .contact_justify h1 {
                              font-size: 31px;
                              font-family: Verdana, Geneva, Tahoma, sans-serif;
-                             width: 45%;
                              padding: 10px;
                              line-height: 1.6;
                          }
