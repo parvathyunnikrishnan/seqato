@@ -802,6 +802,7 @@
                                  line-height: 48px;
                                  text-align: center;
                                  position: relative;
+                                 border: 1px solid white;
                              }
                              
                              .btn-social i {
