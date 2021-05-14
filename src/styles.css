@@ -962,8 +962,16 @@
                                                  }
                                                  .form_justify {
                                                      margin-top: 10px;
-                                                     bottom: 34px;
+                                                     top: 10px;
                                                      left: 0;
+                                                 }
+                                                 .btn-social {
+                                                     width: 20px;
+                                                     height: 20px;
+                                                 }
+                                                 .btn-social i {
+                                                     line-height: 0px;
+                                                     width: 0px;
                                                  }
                                                  .mbr-bold {
                                                      display: flex;
@@ -1104,6 +1112,11 @@
                                              .form_justify form {
                                                  display: flex;
                                                  flex-direction: column;
+                                             }
+                                             
+                                             .icon {
+                                                 position: relative;
+                                                 left: 101px;
                                              }
                                              
                                              @media screen and (max-width: 600px) {
