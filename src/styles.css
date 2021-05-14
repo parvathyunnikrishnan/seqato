@@ -846,11 +846,6 @@
                                                  border: 1px solid black;
                                              }
                                              
-                                             .icon2 {
-                                                 position: relative;
-                                                 left: 14px;
-                                             }
-                                             
                                              .btn-social i {
                                                  top: 0;
                                                  line-height: 36px;
@@ -889,7 +884,7 @@
                                              .icon-justify {
                                                  position: relative;
                                                  left: 19px;
-                                                 bottom: 8px;
+                                                 bottom: 2px;
                                              }
                                              /* .icon-title {
                                              color: black;
@@ -927,9 +922,15 @@
                                                  }
                                                  .contact_justify h1 {
                                                      font-size: 17px;
-                                                     width: 45%;
                                                      line-height: 1.6;
                                                      padding: 0px;
+                                                 }
+                                                 .contact_us {
+                                                     padding: 15px;
+                                                 }
+                                                 .Corporate_address_justify {
+                                                     position: relative;
+                                                     left: 103px;
                                                  }
                                                  .contact_justify p {
                                                      font-size: 11px;
@@ -956,14 +957,13 @@
                                                  textarea {
                                                      width: 258px;
                                                  }
-                                                 input[type=button] {
-                                                     margin-right: 118px;
-                                                 }
                                                  .form_justify form {
                                                      align-items: center;
                                                  }
                                                  .form_justify {
                                                      margin-top: 10px;
+                                                     bottom: 34px;
+                                                     left: 0;
                                                  }
                                                  .mbr-bold {
                                                      display: flex;
