@@ -408,7 +408,7 @@
                                              }
                                              
                                              .cid-swtfTArgJ9 {
-                                                 padding-top: 90px;
+                                                 padding-top: 50px;
                                                  padding-bottom: 90px;
                                                  position: relative;
                                                  background-color: #e6f4fe;
@@ -611,6 +611,7 @@
                                              #skills_justify h3 {
                                                  font-size: 21px;
                                                  margin-right: 93px;
+                                                 color: #999999;
                                              }
                                              
                                              .cid-swtbF1J2g5 .card-text {
@@ -917,6 +918,10 @@
                                              
                                              #crd-clr p {
                                                  color: #999999;
+                                             }
+                                             
+                                             .flexslider .slides {
+                                                 -webkit-animation-delay: 50s;
                                              }
                                              
                                              @media screen and (max-width: 600px) {
