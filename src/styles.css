@@ -266,7 +266,7 @@
                                              
                                              input[type=button] {
                                                  width: 149px;
-                                                 height: 45px;
+                                                 /*height: 45px;*/
                                                  font-size: 14px;
                                                  background-color: dodgerblue;
                                                  color: white;
@@ -274,6 +274,8 @@
                                                  border: none;
                                                  border-radius: 4px;
                                                  cursor: pointer;
+                                                 padding-top: 8px;
+                                                 padding-bottom: 8px;
                                              }
                                              /* .contact_justify {
                                          display: flex;
@@ -290,6 +292,7 @@
                                                  left: 271px;
                                                  display: flex;
                                                  justify-content: center;
+                                                 margin-top: 0px;
                                                  /*margin-top: 64px;*/
                                              }
                                              
@@ -394,7 +397,7 @@
                                                  position: absolute;
                                                  font-size: 1rem;
                                                  left: 0;
-                                                 top: 50%;
+                                                 top: 45%;
                                                  transform: translateY(-50%);
                                                  background-color: white;
                                                  color: gray;
@@ -656,6 +659,7 @@
                                              #skills_justify .row {
                                                  display: flex;
                                                  justify-content: center;
+                                                 margin-top: 50px;
                                              }
                                              
                                              #skills_justify .align-center {
@@ -767,7 +771,7 @@
                                              
                                              .cid-swtjrf6VEk .card-text {
                                                  color: #999999;
-                                                 text-align: left;
+                                                 /*text-align: left;*/
                                              }
                                              
                                              .card-text:last-child {
@@ -787,8 +791,9 @@
                                              
                                              .cid-swtjALlfCj .card-box {
                                                  border: 1px solid transparent;
-                                                 padding: 2rem 1rem;
+                                                 /*padding: 2rem 1rem;*/
                                                  transition: all 0.3s;
+                                                 padding: 1rem 0rem;
                                              }
                                              
                                              .card-box {
@@ -816,7 +821,7 @@
                                              .contact_justify h3::after {
                                                  border-bottom: 2px solid gray;
                                                  content: '';
-                                                 width: 179px;
+                                                 width: 225px;
                                                  display: block;
                                              }
                                              
@@ -844,6 +849,7 @@
                                                  text-align: center;
                                                  position: relative;
                                                  border: 1px solid black;
+                                                 margin-left: 12px;
                                              }
                                              
                                              .btn-social i {
@@ -883,7 +889,7 @@
                                              
                                              .icon-justify {
                                                  position: relative;
-                                                 left: 19px;
+                                                 /*left: 19px;*/
                                                  bottom: 2px;
                                              }
                                              /* .icon-title {
@@ -896,6 +902,22 @@
                                              justify-content: space-evenly;
                                              padding: 10px;
                                          }*/
+                                             
+                                             #crd-algn {
+                                                 padding-left: 3rem;
+                                             }
+                                             
+                                             #crd-algn h4 {
+                                                 color: dodgerblue;
+                                             }
+                                             
+                                             #crd-algn h5 {
+                                                 color: #6c758f;
+                                             }
+                                             
+                                             #crd-clr p {
+                                                 color: #999999;
+                                             }
                                              
                                              @media screen and (max-width: 600px) {
                                                  .logo {
@@ -1112,12 +1134,23 @@
                                              .form_justify form {
                                                  display: flex;
                                                  flex-direction: column;
+                                                 height: 100px;
                                              }
-                                             
-                                             .icon {
+                                             /*.icon {
                                                  position: relative;
                                                  left: 101px;
+                                             }*/
+                                             
+                                             #clr-fnt {
+                                                 color: #ffffff;
                                              }
+                                             
+                                             .cid-swtjrf6VEk .card-wrapper {
+                                                 padding-top: 25px;
+                                                 padding-bottom: 25px;
+                                             }
+                                             
+                                             .cid-swtjALlfCj .card-wrapper {}
                                              
                                              @media screen and (max-width: 600px) {
                                                  #menu_links li a {
