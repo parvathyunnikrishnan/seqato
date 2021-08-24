@@ -920,10 +920,6 @@
                                                  color: #999999;
                                              }
                                              
-                                             .flexslider .slides {
-                                                 -webkit-animation-delay: 50s;
-                                             }
-                                             
                                              @media screen and (max-width: 600px) {
                                                  .logo {
                                                      width: 57%;
