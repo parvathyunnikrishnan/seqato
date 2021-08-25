@@ -951,7 +951,7 @@ section {
         margin: 0;
         padding: 0;
         position: relative;
-        bottom: 172px;
+        bottom: 146px;
     }
     .contact_justify h1 {
         font-size: 20px;
@@ -983,6 +983,7 @@ section {
     }
     .address_justify address {
         font-size: 13px;
+        width: 145px;
     }
     input[type=text] {
         width: 258px;
@@ -995,19 +996,20 @@ section {
     }
     .form_justify {
         margin-top: 0px;
-        top: 0px;
-        left: 0;
+        top: 200px;
+        right: 72px;
     }
     .btn-social {
-        width: 14px;
-        height: 14px;
+        width: 18px;
+        height: 18px;
+        margin-left: 7px;
     }
     .btn-social i {
         line-height: 0px;
         width: 11px;
         font-size: 11px;
-        top: -8px;
-        right: 1px;
+        top: -6px;
+        right: 0px;
     }
     .socicon .socicon-linkedin {
         right: 4px;
@@ -1031,7 +1033,6 @@ section {
         margin-top: 10px;
     }
     .cid-swtfTArgJ9 H2 {
-        margin-top: -62px;
         font-size: 18px;
     }
     .cid-swtfTArgJ9 .mbr-section-text {
@@ -1151,6 +1152,12 @@ section {
     }
     .cid-rVs3LKglxt {
         margin-top: 50px;
+    }
+    .contact_content section {
+        padding-left: 0px !important;
+    }
+    #skills_justify .row {
+        margin-top: 84px;
     }
 }
 
