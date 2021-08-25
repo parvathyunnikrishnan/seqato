@@ -942,10 +942,10 @@
                                                      margin: 0;
                                                      padding: 0;
                                                      position: relative;
-                                                     bottom: 90px;
+                                                     bottom: 172px;
                                                  }
                                                  .contact_justify h1 {
-                                                     font-size: 17px;
+                                                     font-size: 20px;
                                                      line-height: 1.6;
                                                      padding: 0px;
                                                  }
@@ -957,11 +957,11 @@
                                                      left: 103px;
                                                  }
                                                  .contact_justify p {
-                                                     font-size: 11px;
+                                                     font-size: 13px;
                                                      line-height: 1.6;
                                                  }
                                                  .contact_justify h3 {
-                                                     font-size: 14px;
+                                                     font-size: 16px;
                                                  }
                                                  .Address_contents {
                                                      margin-left: 57px;
@@ -973,7 +973,7 @@
                                                      font-size: 12px;
                                                  }
                                                  .address_justify address {
-                                                     font-size: 9px;
+                                                     font-size: 13px;
                                                  }
                                                  input[type=text] {
                                                      width: 258px;
@@ -985,17 +985,23 @@
                                                      align-items: center;
                                                  }
                                                  .form_justify {
-                                                     margin-top: 10px;
-                                                     top: 10px;
+                                                     margin-top: 0px;
+                                                     top: 0px;
                                                      left: 0;
                                                  }
                                                  .btn-social {
-                                                     width: 20px;
-                                                     height: 20px;
+                                                     width: 14px;
+                                                     height: 14px;
                                                  }
                                                  .btn-social i {
                                                      line-height: 0px;
-                                                     width: 0px;
+                                                     width: 11px;
+                                                     font-size: 11px;
+                                                     top: -8px;
+                                                     right: 1px;
+                                                 }
+                                                 .socicon .socicon-linkedin {
+                                                     right: 4px;
                                                  }
                                                  .mbr-bold {
                                                      display: flex;
@@ -1126,6 +1132,16 @@
                                                  }
                                                  .contact_justify h3::after {
                                                      width: 117px;
+                                                 }
+                                                 .icon {
+                                                     left: 103px;
+                                                     bottom: 13px;
+                                                 }
+                                                 .icon-title {
+                                                     font-size: 13px;
+                                                 }
+                                                 .cid-rVs3LKglxt {
+                                                     margin-top: 50px;
                                                  }
                                              }
                                              
