@@ -28,11 +28,10 @@
             var lastId,
                 topMenu = $("ul.menu"),
                 topMenuHeight = topMenu.outerHeight() + 1,
-
-                menuItems = topMenu.find("a"),
-
+                menuItems = $("ul.menu a").not(".linkMenu"),
                 scrollItems = menuItems.map(function () {
                     var item = $($(this).attr("href"));
+
                     if (item.length) {
                         return item;
                     }
