@@ -115,9 +115,9 @@ body {
 }
 
 .menu_bar img {
-    width: 100px;
-    height: 30px;
-    margin-top: 8px;
+    width: 130px;
+    height: 50px;
+    margin-top: -3px;
 }
 
 #menu_links {
@@ -166,62 +166,8 @@ body {
     background: #fbfbfb;
 }
 
-
-/* .contact_justify h1 {
-                                     font-size: 31px;
-                                     font-family: Verdana, Geneva, Tahoma, sans-serif;
-                                     padding: 10px;
-                                     line-height: 1.6;
-                                 }
-                                 
-                                 .contact_justify p {
-                                     font-size: 20px;
-                                     width: auto;
-                                     line-height: 2.6;
-                                 }
-                                 
-                                 .contact_us {}
-                                 
-                                 .contact_justify h3 {
-                                     font-size: 20px;
-                                 }
-                                 
-                                 .address_justify {
-                                     font-size: 18px;
-                                     font-family: sans-serif;
-                                     line-height: 2;
-                                 }
-                                  .Address_contents {
-                                 margin-right: 57px;
-                             }
-                                 
-                                 .Address_contents {}
-                                 
-                                 .Address_contents h3 {
-                                     color: black;
-                                     font-weight: 600;
-                                     font-size: 24px;
-                                 }
-                                 
-                                 .contact_justify h3:after {
-                                     border-bottom: 2px solid gray;
-                                 }
-                                 
-                                 .Corporate_address_justify {
-                                     position: relative;
-                                     top: 125px;
-                                 }*/
-
-
-/* .Corporate_address_justify {
-                                         position: relative;
-                                         top: 129px;
-                                     }*/
-
 .Corporate_address_justify {
     position: relative;
-    /* padding-left: 135px; */
-    /* left: 364px; */
 }
 
 .Corporate_address_justify h3 {
@@ -241,8 +187,6 @@ body {
     font-size: 20px;
     line-height: 2.6;
 }
-
-.Address_contents {}
 
 input[type=text] {
     width: 475px;
@@ -272,7 +216,6 @@ textarea {
 
 input[type=button] {
     width: 149px;
-    /*height: 45px;*/
     font-size: 14px;
     background-color: dodgerblue;
     color: white;
@@ -284,22 +227,10 @@ input[type=button] {
     padding-bottom: 8px;
 }
 
-
-/* .contact_justify {
-                                         display: flex;
-                                         background: #fff;
-                                         color: black !important;
-                                         padding-top: 125px;
-                                         padding-bottom: 35px;
-                                         justify-content: center;
-                                     }*/
-
 .form_justify {
-    /* left: 271px; */
     display: flex;
     justify-content: center;
     margin-top: 0px;
-    /*margin-top: 64px;*/
 }
 
 input[type=button] {
@@ -778,7 +709,6 @@ section {
 
 .cid-swtjrf6VEk .card-text {
     color: #999999;
-    /*text-align: left;*/
 }
 
 .card-text:last-child {
@@ -798,7 +728,6 @@ section {
 
 .cid-swtjALlfCj .card-box {
     border: 1px solid transparent;
-    /*padding: 2rem 1rem;*/
     transition: all 0.3s;
     padding: 1rem 0rem;
 }
@@ -818,14 +747,6 @@ section {
 #domain_justify {
     display: block;
 }
-
-
-/* .contact_justify h1::after {
-                                         border-bottom: 2px solid dodgerblue;
-                                         content: '';
-                                         width: 167px;
-                                         display: block;
-                                     }*/
 
 .contact_justify h3::after {
     border-bottom: 2px solid gray;
@@ -887,9 +808,7 @@ section {
 
 .icon {
     display: flex;
-    /* text-align: center; */
     position: relative;
-    /* left: 366px; */
 }
 
 .icon-title {
@@ -898,21 +817,8 @@ section {
 
 .icon-justify {
     position: relative;
-    /*left: 19px;*/
     bottom: 2px;
 }
-
-
-/* .icon-title {
-                                             color: black;
-                                             font-size: 20px;
-                                         }
-                                         
-                                         .icon-justify {
-                                             display: flex;
-                                             justify-content: space-evenly;
-                                             padding: 10px;
-                                         }*/
 
 #crd-algn {
     padding-left: 3rem;
@@ -1168,10 +1074,7 @@ section {
 .form_justify form {
     display: flex;
     flex-direction: column;
-    /* height: 100px; */
 }
-
-
 
 #clr-fnt {
     color: #ffffff;
@@ -1181,8 +1084,6 @@ section {
     padding-top: 25px;
     padding-bottom: 25px;
 }
-
-.cid-swtjALlfCj .card-wrapper {}
 
 @media screen and (max-width: 600px) {
     #menu_links li a {
