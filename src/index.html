@@ -8,38 +8,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-
-
 </head>
 
 <body>
     <app-root></app-root>
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js">
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.6.3/jquery.flexslider-min.js">
     </script>
     <script>
-        $(document).ready(function () {
-
-
-
+        $(document).ready(function() {
             var lastId,
                 topMenu = $("ul.menu"),
                 topMenuHeight = topMenu.outerHeight() + 1,
-
-                menuItems = topMenu.find("a"),
-
-                scrollItems = menuItems.map(function () {
+                menuItems = $("ul.menu a").not(".linkMenu"),
+                scrollItems = menuItems.map(function() {
                     var item = $($(this).attr("href"));
+
                     if (item.length) {
                         return item;
                     }
                 });
 
-
-            menuItems.click(function (e) {
+            menuItems.click(function(e) {
                 var href = $(this).attr("href"),
                     offsetTop = href === "#" ? 0 : $(href).offset().top - topMenuHeight + 1;
                 $('html, body').stop().animate({
@@ -48,13 +39,9 @@
                 e.preventDefault();
             });
 
-
-            $(window).scroll(function () {
-
+            $(window).scroll(function() {
                 var fromTop = $(this).scrollTop() + topMenuHeight;
-
-
-                var cur = scrollItems.map(function () {
+                var cur = scrollItems.map(function() {
                     if ($(this).offset().top < fromTop)
                         return this;
                 });
@@ -64,23 +51,17 @@
                 if (lastId !== id) {
                     lastId = id;
                     console.log(id);
-
                     menuItems
                         .parent().removeClass("active")
                         .end().filter("[href=\\#" + id + "]").parent().addClass("active");
                 }
             });
 
-
-
             $('.flexslider').flexslider({
                 animation: "slide",
                 slideshowSpeed: 7000
             });
-
-
         });
-
 
         function checkEmail() {
             var reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
@@ -92,30 +73,25 @@
                 return true;
             }
         }
-        $(function () {
-            $(document).scroll(function () {
+        $(function() {
+            $(document).scroll(function() {
                 var $nav = $(".navbar-fixed-top");
                 $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
             });
         });
 
-        $(document).ready(function () {
-            $(".panel-title").on("click", function () {
+        $(document).ready(function() {
+            $(".panel-title").on("click", function() {
                 if ($(this).hasClass("collapsed")) {
                     $(".panel-title").addClass("collapsed");
-
                     $(".panel-collapse").slideUp(200);
                     $(this).removeClass("collapsed ");
                     $(this).parent()
                         .siblings()
                         .slideDown(200);
-
                 } else {
-
                     $(".panel-title").addClass("collapsed");
-
                     $(".panel-collapse").slideUp(200);
-
                 }
             });
         });

@@ -914,7 +914,7 @@ section {
         line-height: 0px;
         width: 11px;
         font-size: 11px;
-        top: -6px;
+        top: -8px;
         right: 0px;
     }
     .socicon .socicon-linkedin {
@@ -955,6 +955,7 @@ section {
     .menu_bar img {
         width: 46px;
         height: 15px;
+        margin-top: 9px;
     }
     .navbar {
         height: 51px;
@@ -1051,7 +1052,7 @@ section {
     }
     .icon {
         left: 103px;
-        bottom: 13px;
+        bottom: 11px;
     }
     .icon-title {
         font-size: 13px;
@@ -1064,6 +1065,9 @@ section {
     }
     #skills_justify .row {
         margin-top: 84px;
+    }
+    #menu_links {
+        width: 90%;
     }
 }
 

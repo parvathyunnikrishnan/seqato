@@ -776,6 +776,9 @@ textarea.form-control {
     .captchaCont {
         padding-left: 56px;
     }
+    .bg_img {
+        height: 60vh !important;
+    }
 }
 
 @media (min-width: 576px) {
