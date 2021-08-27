@@ -784,3 +784,91 @@ textarea.form-control {
         max-width: 64.666667%;
     }
 }
+
+
+/* .mbr-iconfont {
+    font-size: 4rem;
+    color: #000000;
+    width: 100px;
+    height: 100px;
+    min-width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding-bottom: 1rem;
+} */
+
+.card-box {
+    width: 100%;
+}
+
+.card-wrapper,
+.item-wrapper {
+    overflow: hidden;
+}
+
+.card-title {
+    position: relative;
+    cursor: pointer;
+    color: #000000;
+}
+
+.display-7 {
+    font-family: 'Be Vietnam', sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+
+.card-title {
+    margin-bottom: .75rem;
+}
+
+.card-text {
+    color: #999999;
+}
+
+.card-text:last-child {
+    margin-bottom: 0;
+}
+
+.card-title:before {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 0;
+    transition: all 0.4s ease-in-out;
+    background: currentColor;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.card-title:after {
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    background: currentColor;
+    bottom: 0px;
+    opacity: 0.1;
+    left: 0;
+}
+
+#skl-lvl p {
+    font-size: 13px;
+    font-family: 'Be Vietnam', sans-serif;
+    color: #999999;
+}
+
+#skl-lvl h5 {
+    font-size: 17px;
+    font-family: 'Be Vietnam', sans-serif;
+    color: #000000;
+    width: 150px;
+}
+
+#jst-cnt {
+    display: flex;
+    justify-content: space-between;
+}
