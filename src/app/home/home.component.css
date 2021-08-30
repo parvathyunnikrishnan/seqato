@@ -776,6 +776,12 @@ textarea.form-control {
     .captchaCont {
         padding-left: 56px;
     }
+    .container {
+        display: unset;
+    }
+    .p-3 {
+        padding: 1rem 7rem!important;
+    }
 }
 
 @media (min-width: 576px) {
@@ -832,7 +838,7 @@ textarea.form-control {
     margin-bottom: 0;
 }
 
-.card-title:before {
+#stl-al:before {
     content: '';
     position: absolute;
     height: 2px;
@@ -844,7 +850,7 @@ textarea.form-control {
     transform: translateX(-50%);
 }
 
-.card-title:after {
+#stl-al:after {
     content: '';
     position: absolute;
     height: 1px;
@@ -855,7 +861,7 @@ textarea.form-control {
     left: 0;
 }
 
-.card-title:hover:before {
+#stl-al:hover:before {
     width: 100%;
 }
 
@@ -863,15 +869,15 @@ textarea.form-control {
     cursor: pointer;
 }
 
-.card:hover .card-title:before {
+.card:hover #stl-al:before {
     width: 100%;
 }
 
 #skl-lvl p {
-    font-size: 13px;
+    font-size: 15px;
     font-family: 'Be Vietnam', sans-serif;
-    color: #999999;
-    width: 90%;
+    color: #515151;
+    width: 95%;
 }
 
 #skl-lvl h5 {
@@ -894,22 +900,6 @@ textarea.form-control {
     margin: 5px 25px;
 }
 
-#alg-ptn {
-    position: relative;
-    top: 13px;
-}
-
-#ast-att {
-    position: relative;
-    bottom: 18px;
-}
-
-#qa-alg {
-    position: relative;
-    top: 8px;
-}
-
-#opt-stn {
-    position: relative;
-    bottom: 12px;
+.container {
+    align-items: unset;
 }
