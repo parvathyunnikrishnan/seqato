@@ -855,6 +855,18 @@ textarea.form-control {
     left: 0;
 }
 
+.card-title:hover:before {
+    width: 100%;
+}
+
+.card:hover {
+    cursor: pointer;
+}
+
+.card:hover .card-title:before {
+    width: 100%;
+}
+
 #skl-lvl p {
     font-size: 13px;
     font-family: 'Be Vietnam', sans-serif;
