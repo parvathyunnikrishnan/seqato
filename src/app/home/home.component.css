@@ -859,16 +859,45 @@ textarea.form-control {
     font-size: 13px;
     font-family: 'Be Vietnam', sans-serif;
     color: #999999;
+    width: 90%;
 }
 
 #skl-lvl h5 {
-    font-size: 17px;
+    font-size: 16px;
     font-family: 'Be Vietnam', sans-serif;
     color: #000000;
-    width: 150px;
+    width: 160px;
+    text-align: center;
 }
 
-#jst-cnt {
+
+/*#jst-cnt {
     display: flex;
     justify-content: space-between;
+}*/
+
+.fa {
+    font-size: 38px;
+    width: 105px;
+    margin: 5px 25px;
+}
+
+#alg-ptn {
+    position: relative;
+    top: 13px;
+}
+
+#ast-att {
+    position: relative;
+    bottom: 18px;
+}
+
+#qa-alg {
+    position: relative;
+    top: 8px;
+}
+
+#opt-stn {
+    position: relative;
+    bottom: 12px;
 }
