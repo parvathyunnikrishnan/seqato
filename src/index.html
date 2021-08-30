@@ -6,25 +6,20 @@
     <title>Seqato</title>
     <base href="/">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Ubuntu:300,400">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-
-
 </head>
 
 <body>
     <app-root></app-root>
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js">
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.6.3/jquery.flexslider-min.js">
     </script>
     <script>
         $(document).ready(function () {
-
-
-
             var lastId,
                 topMenu = $("ul.menu"),
                 topMenuHeight = topMenu.outerHeight() + 1,
@@ -37,7 +32,6 @@
                     }
                 });
 
-
             menuItems.click(function (e) {
                 var href = $(this).attr("href"),
                     offsetTop = href === "#" ? 0 : $(href).offset().top - topMenuHeight + 1;
@@ -47,12 +41,8 @@
                 e.preventDefault();
             });
 
-
             $(window).scroll(function () {
-
                 var fromTop = $(this).scrollTop() + topMenuHeight;
-
-
                 var cur = scrollItems.map(function () {
                     if ($(this).offset().top < fromTop)
                         return this;
@@ -63,23 +53,17 @@
                 if (lastId !== id) {
                     lastId = id;
                     console.log(id);
-
                     menuItems
                         .parent().removeClass("active")
                         .end().filter("[href=\\#" + id + "]").parent().addClass("active");
                 }
             });
 
-
-
             $('.flexslider').flexslider({
                 animation: "slide",
                 slideshowSpeed: 7000
             });
-
-
         });
-
 
         function checkEmail() {
             var reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
@@ -102,19 +86,14 @@
             $(".panel-title").on("click", function () {
                 if ($(this).hasClass("collapsed")) {
                     $(".panel-title").addClass("collapsed");
-
                     $(".panel-collapse").slideUp(200);
                     $(this).removeClass("collapsed ");
                     $(this).parent()
                         .siblings()
                         .slideDown(200);
-
                 } else {
-
                     $(".panel-title").addClass("collapsed");
-
                     $(".panel-collapse").slideUp(200);
-
                 }
             });
         });
