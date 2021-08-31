@@ -782,6 +782,9 @@ textarea.form-control {
     .p-3 {
         padding: 1rem 7rem!important;
     }
+    #clr-fnt {
+        margin-left: 50px;
+    }
 }
 
 @media (min-width: 576px) {
