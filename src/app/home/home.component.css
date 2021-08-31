@@ -780,10 +780,14 @@ textarea.form-control {
         display: unset;
     }
     .p-3 {
-        padding: 1rem 7rem!important;
+        padding: 3rem 3rem!important;
     }
     #clr-fnt {
         margin-left: 50px;
+    }
+    #cnt-styl .card {
+        margin-right: 85px;
+        margin-left: 85px !important;
     }
 }
 
@@ -904,4 +908,15 @@ textarea.form-control {
 
 .container {
     align-items: unset;
+}
+
+#cnt-styl .card {
+    border-radius: 18%;
+    margin-bottom: 37px;
+    margin-left: 31px;
+    border: 1px solid lightgray;
+}
+
+#cnt-styl .card:hover {
+    border: 1px solid dodgerblue;
 }
