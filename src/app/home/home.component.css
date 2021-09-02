@@ -780,7 +780,7 @@ textarea.form-control {
         display: unset;
     }
     .p-3 {
-        padding: 3rem 3rem!important;
+        padding: 1rem 2rem!important;
     }
     #clr-fnt {
         margin-left: 50px;
@@ -788,6 +788,9 @@ textarea.form-control {
     #cnt-styl .card {
         margin-right: 85px;
         margin-left: 85px !important;
+    }
+    #skl-lvl p {
+        width: 100%;
     }
 }
 
@@ -910,7 +913,8 @@ textarea.form-control {
     align-items: unset;
 }
 
-#cnt-styl .card {
+
+/*#cnt-styl .card {
     border-radius: 18%;
     margin-bottom: 37px;
     margin-left: 31px;
@@ -919,4 +923,4 @@ textarea.form-control {
 
 #cnt-styl .card:hover {
     border: 1px solid dodgerblue;
-}
+}*/
