@@ -19,12 +19,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.6.3/jquery.flexslider-min.js">
     </script>
     <script>
-        $(document).ready(function () {
+        $(document).ready(function() {
             var lastId,
                 topMenu = $("ul.menu"),
                 topMenuHeight = topMenu.outerHeight() + 1,
                 menuItems = $("ul.menu a").not(".linkMenu"),
-                scrollItems = menuItems.map(function () {
+                scrollItems = menuItems.map(function() {
                     var item = $($(this).attr("href"));
 
                     if (item.length) {
@@ -32,7 +32,7 @@
                     }
                 });
 
-            menuItems.click(function (e) {
+            menuItems.click(function(e) {
                 var href = $(this).attr("href"),
                     offsetTop = href === "#" ? 0 : $(href).offset().top - topMenuHeight + 1;
                 $('html, body').stop().animate({
@@ -41,9 +41,9 @@
                 e.preventDefault();
             });
 
-            $(window).scroll(function () {
+            $(window).scroll(function() {
                 var fromTop = $(this).scrollTop() + topMenuHeight;
-                var cur = scrollItems.map(function () {
+                var cur = scrollItems.map(function() {
                     if ($(this).offset().top < fromTop)
                         return this;
                 });
@@ -75,15 +75,15 @@
                 return true;
             }
         }
-        $(function () {
-            $(document).scroll(function () {
+        $(function() {
+            $(document).scroll(function() {
                 var $nav = $(".navbar-fixed-top");
                 $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
             });
         });
 
-        $(document).ready(function () {
-            $(".panel-title").on("click", function () {
+        $(document).ready(function() {
+            $(".panel-title").on("click", function() {
                 if ($(this).hasClass("collapsed")) {
                     $(".panel-title").addClass("collapsed");
                     $(".panel-collapse").slideUp(200);
