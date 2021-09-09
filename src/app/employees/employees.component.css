@@ -1,0 +1,49 @@
+.brd-ln-stl {
+    border: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    margin: 100px 134px auto;
+    padding: 80px 0px 80px 234px;
+}
+
+.wrt {
+    width: 258px;
+    margin-top: -33px;
+}
+
+.irp {
+    width: 343px;
+}
+
+.lbl-in label {
+    margin-top: -23px;
+}
+
+.lbl-in input {
+    margin-top: -10px;
+}
+
+.em-stl {
+    margin-top: 26px;
+}
+
+label {}
+
+#btn-stl {
+    background-color: #1976d2;
+    text-transform: uppercase;
+    font-size: 16px;
+    width: 149px;
+    color: white;
+    margin: 10px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+#btn-stl:hover {
+    background-color: rgb(24, 69, 122)!important;
+    opacity: 2.5;
+}
