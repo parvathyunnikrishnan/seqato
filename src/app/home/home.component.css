@@ -474,6 +474,12 @@ button:focus {
     opacity: 2.5;
 }
 
+.material-textfield label {
+    left: 0;
+    top: 45%;
+    transform: translateY(-50%);
+}
+
 .vd-bt-jst {
     background: #21384a;
     color: #fff;
