@@ -1,9 +1,7 @@
 .brd-ln-stl {
     border: 1px solid grey;
-    display: flex;
-    justify-content: center;
-    margin: 100px 134px auto;
-    padding: 80px 0px 80px 234px;
+    margin: 50px 75px auto;
+    padding: 80px 0px 35px 234px;
 }
 
 .wrt {
@@ -15,13 +13,28 @@
     width: 343px;
 }
 
+.lbl-in {
+    display: flex;
+}
+
 .lbl-in label {
     margin-top: -23px;
+    /*margin-left: -413px;*/
+    margin-left: -400px;
 }
 
 .lbl-in input {
     margin-top: -10px;
+    width: 250px;
+    /* margin-right: 283px;*/
+    margin-left: 30px;
 }
+
+.pi-mts-lnd input {
+    margin-left: 60px;
+}
+
+.qfctn label {}
 
 .em-stl {
     margin-top: 26px;
@@ -33,7 +46,7 @@ label {}
     background-color: #1976d2;
     text-transform: uppercase;
     font-size: 16px;
-    width: 149px;
+    width: 175px;
     color: white;
     margin: 10px 0;
     border: none;
@@ -41,9 +54,19 @@ label {}
     cursor: pointer;
     padding-top: 8px;
     padding-bottom: 8px;
+    left: 752px;
+    position: relative;
 }
 
 #btn-stl:hover {
     background-color: rgb(24, 69, 122)!important;
     opacity: 2.5;
+}
+
+.pi-mts-lnd h1 {
+    text-align: left;
+}
+
+.qfctn {
+    margin-left: 335px;
 }
