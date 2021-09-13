@@ -1,7 +1,7 @@
 .brd-ln-stl {
     border: 1px solid grey;
     margin: 50px 75px auto;
-    padding: 80px 0px 35px 234px;
+    padding: 80px 0px 35px 310px;
     background-color: #f1f1f1;
 }
 
@@ -19,9 +19,9 @@
 }
 
 .lbl-in label {
-    margin-top: 0px;
+    margin-top: -15px;
     /*margin-left: -413px;*/
-    margin-left: -400px;
+    margin-left: -458px;
     background-color: #f1f1f1;
 }
 
@@ -56,7 +56,7 @@ label {}
     cursor: pointer;
     padding-top: 8px;
     padding-bottom: 8px;
-    left: 752px;
+    left: 661px;
     position: relative;
 }
 
@@ -73,10 +73,15 @@ label {}
     margin-left: 335px;
 }
 
+#frm-grps input {
+    margin: -7px 0;
+}
+
 @media all and (max-width:768px) {
     .brd-ln-stl {
         width: 566px;
         margin: 0px;
+        padding: 80px 0px 35px 285px;
     }
     .lbl-in label {
         background-color: unset;
@@ -91,12 +96,12 @@ label {}
         margin-left: 30px;
     }
     #btn-stl {
-        left: 32px;
+        left: 75px;
     }
     .lbl-in input {
         margin-left: 30px;
     }
     .em-stl {
-        margin-top: 18px !important;
+        margin-top: 23px !important;
     }
 }
