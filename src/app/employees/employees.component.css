@@ -2,6 +2,7 @@
     border: 1px solid grey;
     margin: 50px 75px auto;
     padding: 80px 0px 35px 234px;
+    background-color: #f1f1f1;
 }
 
 .wrt {
@@ -21,6 +22,7 @@
     margin-top: -23px;
     /*margin-left: -413px;*/
     margin-left: -400px;
+    background-color: #f1f1f1;
 }
 
 .lbl-in input {
@@ -69,4 +71,26 @@ label {}
 
 .qfctn {
     margin-left: 335px;
+}
+
+@media all and (max-width:768px) {
+    .brd-ln-stl {
+        width: 566px;
+        margin: 0px;
+    }
+    .lbl-in label {
+        background-color: unset;
+    }
+    .lbl-in {
+        display: unset;
+    }
+    .qfctn {
+        margin-left: 0px;
+    }
+    .pi-mts-lnd input {
+        margin-left: 30px;
+    }
+    #btn-stl {
+        left: 32px;
+    }
 }
