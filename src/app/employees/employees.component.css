@@ -19,14 +19,14 @@
 }
 
 .lbl-in label {
-    margin-top: -23px;
+    margin-top: 0px;
     /*margin-left: -413px;*/
     margin-left: -400px;
     background-color: #f1f1f1;
 }
 
 .lbl-in input {
-    margin-top: -10px;
+    margin-bottom: -13px;
     width: 250px;
     /* margin-right: 283px;*/
     margin-left: 30px;
@@ -39,7 +39,7 @@
 .qfctn label {}
 
 .em-stl {
-    margin-top: 26px;
+    margin-top: 25px;
 }
 
 label {}
@@ -92,5 +92,11 @@ label {}
     }
     #btn-stl {
         left: 32px;
+    }
+    .lbl-in input {
+        margin-left: 30px;
+    }
+    .em-stl {
+        margin-top: 18px !important;
     }
 }
