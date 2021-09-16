@@ -861,14 +861,14 @@ input[type="file"] {
         bottom: 338px;
         font-size: 16px;
     }
-    .hd-crs-st label {
+    form label {
         bottom: 361px;
         left: 17px;
         width: 109px;
         height: 39px;
         font-size: 15px;
     }
-    .hd-crs-st input {
+    form input {
         bottom: 329px;
         left: 4px;
         width: 106px;
