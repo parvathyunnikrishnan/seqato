@@ -94,7 +94,6 @@ body {
 }
 
 #error {
-    display: none;
     color: red;
 }
 
