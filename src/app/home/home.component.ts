@@ -42,7 +42,7 @@ export class HomeComponent implements OnInit {
       console.log(2)
       this.emailError = false;
       const mailBody = this.message
-      this.mailText = "mailto:lekshmi@qburst.com+?subject=Question from " + this.name + " - " + this.email + "&body=" + mailBody; // add the links to body
+      this.mailText = "mailto:rp@seqato.com?subject=Question from " + this.name + " - " + this.email + "&body=" + mailBody; // add the links to body
       window.location.href = this.mailText;
     }
   }
