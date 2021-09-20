@@ -94,7 +94,6 @@ body {
 }
 
 #error {
-    display: none;
     color: red;
 }
 
@@ -1182,6 +1181,9 @@ section {
     #menu_links .menu-btn:checked~.menu-icon:not(.steps) .navicon:before,
     #menu_links .menu-btn:checked~.menu-icon:not(.steps) .navicon:after {
         top: 0;
+    }
+    body {
+        width: 384px !important;
     }
 }
 

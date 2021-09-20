@@ -776,9 +776,6 @@ textarea.form-control {
     .captchaCont {
         padding-left: 56px;
     }
-    .bg_img {
-        height: 60vh !important;
-    }
 }
 
 @media (min-width: 576px) {
@@ -789,7 +786,93 @@ textarea.form-control {
 }
 
 .bg_img {
-    background-image: url(src/assets/images/bgimage.png);
+    background-image: url(src/assets/images/bgimg-career.png);
     height: 100vh;
     width: 100%;
+}
+
+.hd-crs-st h1 {
+    position: relative;
+    bottom: 459px;
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+    color: white;
+    font-weight: 600;
+    font-family: ui-sans-serif;
+}
+
+.hd-crs-st p {
+    position: relative;
+    bottom: 459px;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: white;
+    font-family: system-ui;
+}
+
+form label {
+    position: relative;
+    bottom: 510px;
+    left: 476px;
+    text-transform: unset;
+    background-color: rgb(148, 47, 30);
+    width: 181px;
+    color: white;
+    height: 55px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+form input {
+    position: relative;
+    bottom: 460px;
+    border-radius: 0px;
+    left: 476px;
+    text-transform: unset;
+    background-color: rgb(148, 47, 30);
+    color: white;
+    width: 181px;
+    height: 55px;
+    font-size: 19px;
+    cursor: pointer;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.jst-lvl {
+    text-align: center;
+    padding-top: 10px;
+}
+
+@media all and (max-width:768px) {
+    .bg_img {
+        height: 135vh;
+        width: 325px;
+    }
+    .hd-crs-st h1 {
+        bottom: 344px;
+        font-size: 54px;
+    }
+    .hd-crs-st p {
+        bottom: 338px;
+        font-size: 16px;
+    }
+    form label {
+        bottom: 361px;
+        left: 17px;
+        width: 109px;
+        height: 39px;
+        font-size: 15px;
+    }
+    form input {
+        bottom: 329px;
+        left: 4px;
+        width: 106px;
+        height: 39px;
+        font-size: 16px;
+    }
 }
