@@ -1,2 +1,54 @@
+<section class="menu_bar" once="menu1">
+    <nav class="navbar navbar-dropdown navbar-short navbar-fixed-top">
+        <div id="menu_links">
+            <img src="assets/images/logo.png" />
+            <span>
+                <input class="menu-btn" type="checkbox" id="menu-btn" />
+                <label class="menu-icon" for="menu-btn">
+                    <span class="navicon"></span></label>
+            <ul class="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#why_us">Why Us</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#domain">Domain Expertise</a></li>
+                <li><a href="#location">Location</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="/careers" class="linkMenu">Careers</a></li>
+                <!--<li><a href="/employees" class="linkMenu">Employees</a></li>-->
+
+            </ul>
+            </span>
+        </div>
+    </nav>
+
+</section>
 <section class="bg_img">
 </section>
+<div class="hd-crs-st">
+    <h1>Join Us?</h1>
+    <p>What you seek is seeking you</p>
+
+</div>
+<form class="form" action="./upload" method="post" enctype="multipart/form-data">
+    <label class="jst-lvl">Upload Resume
+    <input type="file" id="real-file"></label>
+    <input type="button" value="Submit" id="custom-button" />
+</form>
+
+<script type="text/javascript">
+    const realFileBtn = document.getElementById("real-file");
+    const customBtn = document.getElementById("custom-button");
+    const customTxt = document.getElementById("custom-text");
+
+    customBtn.addEventListener("click", function() {
+        realFileBtn.click();
+    });
+
+    realFileBtn.addEventListener("change", function() {
+        if (realFileBtn.value) {
+            customTxt.innerHTML = realFileBtn.value.match(/[\/\\]([\w\d\s\.\-\(\)]+)$/)[1];
+        } else {
+            customTxt.innerHTML = "No file chosen, yet.";
+        }
+    });
+</script>
