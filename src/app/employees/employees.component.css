@@ -88,10 +88,10 @@ label {}
         background-color: unset;
     }
     .lbl-in {
-        display: unset;
+        display: unset !important;
     }
     .qfctn {
-        margin-left: 0px;
+        margin-left: 0px !important;
     }
     .pi-mts-lnd input {
         margin-left: 30px;
