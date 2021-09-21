@@ -790,6 +790,10 @@ textarea.form-control {
     }
     #clr-fnt {
         margin-left: 50px;
+        margin-top: -21px;
+    }
+    #footer02-d {
+        height: 50px;
     }
     #cnt-styl .card {
         margin-right: 85px;
@@ -930,3 +934,8 @@ textarea.form-control {
 #cnt-styl .card:hover {
     border: 1px solid dodgerblue;
 }*/
+
+#bx-hr-eft:hover {
+    box-shadow: 0.6em 0.6em 1.2em #d2dce9, -0.5em -0.5em 1em #f3f3ff;
+    transform: scale(1.01, 1.01);
+}
