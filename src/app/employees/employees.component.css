@@ -1,7 +1,7 @@
 .brd-ln-stl {
     border: 1px solid grey;
     /*margin: 50px 75px auto;*/
-    margin: 30px;
+    margin: 100px 30px;
     padding: 80px 0px 35px 310px;
     background-color: #f1f1f1;
 }
@@ -81,7 +81,8 @@ label {}
 @media all and (max-width:768px) {
     .brd-ln-stl {
         width: 566px;
-        margin: 0px;
+        /* margin: 0px;*/
+        margin: 51px 0px 4px 5px;
         padding: 80px 0px 35px 285px;
     }
     .lbl-in label {
