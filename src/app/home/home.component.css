@@ -802,6 +802,9 @@ textarea.form-control {
     #skl-lvl p {
         width: 100%;
     }
+    #crd-alg {
+        width: 76% !important;
+    }
 }
 
 @media (min-width: 576px) {
@@ -938,4 +941,21 @@ textarea.form-control {
 #bx-hr-eft:hover {
     box-shadow: 0.6em 0.6em 1.2em #d2dce9, -0.5em -0.5em 1em #f3f3ff;
     transform: scale(1.01, 1.01);
+}
+
+#bx-hr-eft {
+    padding: 20px 20px 20px 20px;
+}
+
+#crd-alg {
+    width: 40%;
+    margin-right: 2.75rem;
+    margin-bottom: 2.75rem;
+}
+
+#crd-alg h5 {
+    color: inherit !important;
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 12px;
 }
