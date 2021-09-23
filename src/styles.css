@@ -974,7 +974,7 @@ section {
         position: absolute;
         left: 226px;
         width: 106px;
-        bottom: -8px;
+        bottom: -30px;
     }
     .cid-swtfTArgJ9 .card .card-header a.panel-title {
         width: 386px;
@@ -1036,7 +1036,7 @@ section {
     }
     .mapouter {
         position: relative;
-        bottom: 178px;
+        bottom: -49px;
     }
     .cid-swtbF1J2g5 .card-box {
         padding-left: 1rem;
@@ -1069,7 +1069,8 @@ section {
         margin-top: 84px;
     }
     #menu_links {
-        width: 95%;
+        width: 80%;
+        overflow: unset;
     }
 }
 
@@ -1185,6 +1186,14 @@ section {
     }
     body {
         width: 384px !important;
+    }
+    .cid-swtfTArgJ9 {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    #jst-cnt {
+        position: relative;
+        bottom: 40px;
     }
 }
 
