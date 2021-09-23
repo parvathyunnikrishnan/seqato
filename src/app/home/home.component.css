@@ -786,7 +786,7 @@ textarea.form-control {
         display: unset;
     }
     .p-3 {
-        padding: 1rem 2rem!important;
+        padding: 1rem 1rem!important;
     }
     #clr-fnt {
         margin-left: 50px;
@@ -796,10 +796,11 @@ textarea.form-control {
         height: 50px;
     }
     #cnt-styl .card {
-        margin-right: 85px;
+        margin-right: 69px;
         margin-left: 85px !important;
     }
     #skl-lvl p {
+        font-size: 15px;
         width: 100%;
     }
     #crd-alg {
