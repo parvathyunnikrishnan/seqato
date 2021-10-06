@@ -114,9 +114,9 @@ body {
 }
 
 .menu_bar img {
-    width: 180px;
-    height: 80px;
-    /*margin-top: 16px;*/
+    width: 175px;
+    height: 75px;
+    margin-top: 5px;
 }
 
 #menu_links {
