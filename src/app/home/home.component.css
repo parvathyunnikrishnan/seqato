@@ -304,6 +304,110 @@ button:focus {
     margin-top: 25px;
 }
 
+.mbr-overlay {
+    z-index: 1;
+    opacity: 0.6;
+    background-color: rgb(106, 54, 73);
+}
+
+.mbr-fullscreen .mbr-overlay {
+    height: 100%;
+}
+
+.mbr-overlay {
+    background-color: #000;
+    left: 0;
+    opacity: .5;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+#menu_links span {
+    width: 100%;
+    font-weight: 800;
+}
+
+a.text-black:hover,
+a.text-black:focus {
+    color: #4d4d4d !important;
+}
+
+.nav-link {
+    position: relative;
+    cursor: pointer;
+    width: fit-content;
+    transition: all 0.3s;
+}
+
+.nav-link:hover:before {
+    width: 100%;
+    right: auto;
+    left: 0;
+}
+
+.nav-link:before {
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 0;
+    left: auto;
+    right: 0;
+    transition: all 0.4s ease-in-out;
+    background: currentColor;
+    bottom: 28px;
+}
+
+a.nav-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul.navbar-nav {
+    flex-wrap: wrap;
+}
+
+.navbar-nav {
+    justify-content: center;
+    width: -webkit-fill-available;
+}
+
+.icons-menu {
+    flex-wrap: wrap;
+    min-width: 207px;
+    display: flex;
+    justify-content: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1.3rem;
+    text-align: center;
+}
+
+.p-2 {
+    padding: .5rem!important;
+}
+
+.icons-menu span {
+    font-size: 25px;
+}
+
+.mbr-iconfont {
+    color: #000000 !important;
+}
+
+[class^="socicon-"],
+[class*=" socicon-"] {
+    font-family: 'Socicon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+
 @media all and (max-width:768px) {
     .form-popup {
         left: 14px;
@@ -846,7 +950,7 @@ textarea.form-control {
 .display-7 {
     font-family: 'Be Vietnam', sans-serif;
     font-size: 1.1rem;
-    line-height: 1.5;
+    /*line-height: 1.5;*/
 }
 
 .card-title {
@@ -959,4 +1063,20 @@ textarea.form-control {
     font-family: Helvetica, sans-serif;
     font-size: 20px;
     padding: 12px;
+}
+
+.menu li.active a {
+    /*border-radius: 6px;
+    padding: 12px;
+    margin-top: 15px;*/
+    color: dodgerblue !important;
+    /*transition: transform 450m cubic-bezier(0.6, 0.28, 0.74, 0.05);
+    transform: scaleX(1.1);
+    background: #fbfbfb;*/
+}
+
+.menu a:hover {
+    color: unset;
+    transition: unset;
+    transform: unset;
 }
