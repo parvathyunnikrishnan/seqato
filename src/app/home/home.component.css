@@ -1066,13 +1066,13 @@ textarea.form-control {
 }
 
 .menu li.active a {
-    /*border-radius: 6px;
+    border-radius: 6px;
     padding: 12px;
-    margin-top: 15px;*/
+    margin-top: 15px;
     color: dodgerblue !important;
-    /*transition: transform 450m cubic-bezier(0.6, 0.28, 0.74, 0.05);
-    transform: scaleX(1.1);
-    background: #fbfbfb;*/
+    transition: transform 450m cubic-bezier(0.6, 0.28, 0.74, 0.05);
+    transform: unset;
+    background: unset;
 }
 
 .menu a:hover {
