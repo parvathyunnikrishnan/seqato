@@ -1079,8 +1079,10 @@ textarea.form-control {
 
 .menu li.active a {
     border-radius: 6px;
-    padding: 12px;
-    margin-top: 15px;
+    /*padding: 12px;
+    margin-top: 15px;*/
+    padding: 25px;
+    margin-top: 4px;
     color: dodgerblue !important;
     transition: transform 450m cubic-bezier(0.6, 0.28, 0.74, 0.05);
     transform: unset;
