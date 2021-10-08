@@ -341,9 +341,12 @@ a.text-black:focus {
 }
 
 .nav-link:hover:before {
-    width: 100%;
+    /*width: 100%;
     right: auto;
-    left: 0;
+    left: 0;*/
+    width: 77%;
+    left: 14px;
+    right: 9px;
 }
 
 .nav-link:before {
@@ -356,6 +359,15 @@ a.text-black:focus {
     transition: all 0.4s ease-in-out;
     background: currentColor;
     bottom: 28px;
+    /* content: '';
+    position: absolute;
+    height: 1px;
+    width: 77%;
+    left: 14px;
+    right: 9px;
+    transition: all 0.4s ease-in-out;
+    background: currentColor;
+    bottom: 32px;*/
 }
 
 a.nav-link {
