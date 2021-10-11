@@ -8,6 +8,15 @@
     /* src: url(../../assets/fonts/AlexBrush-Regular.woff) format("opentype"); */
 }
 
+@font-face {
+    font-family: 'MobiriseIcons';
+    /*src: url('./mobirise-icons.eot?spat4u');
+    src: url('./mobirise-icons.eot?spat4u#iefix') format('embedded-opentype'), url('./mobirise-icons.ttf?spat4u') format('truetype'), url('./mobirise-icons.woff?spat4u') format('woff'), url('./mobirise-icons.svg?spat4u#MobiriseIcons') format('svg');*/
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 .open-button {
     position: fixed;
     background-color: #555;
@@ -1093,4 +1102,284 @@ textarea.form-control {
     color: unset;
     transition: unset;
     transform: unset;
+}
+
+.cid-rVtXUpDj2u {
+    padding-top: 120px;
+    padding-bottom: 135px;
+    background-color: #f6f3f3;
+}
+
+.display-2 {
+    font-family: 'Be Vietnam', sans-serif;
+    font-size: 1.8rem;
+}
+
+#container-algn {
+    display: block;
+}
+
+.cid-rVtXUpDj2u .card {
+    overflow: visible;
+}
+
+.card {
+    background-color: transparent;
+    border: none;
+}
+
+.cid-rVtXUpDj2u .card-wrapper {
+    background-color: #ffffff;
+    padding: 1rem;
+    transition: all 0.3s;
+}
+
+.cid-rVtXUpDj2u .card-title,
+.cid-rVtXUpDj2u .card-box {
+    text-align: center;
+}
+
+.cid-rVtXUpDj2u .card-box {
+    border: 1px solid transparent;
+    padding: 2rem 1rem;
+    transition: all 0.3s;
+}
+
+.cid-rVtXUpDj2u .mbr-iconfont {
+    font-size: 4rem;
+    color: #5758e0;
+    min-width: 100px;
+    margin-bottom: 2rem;
+    display: block;
+    background: -webkit-linear-gradient(#e5524e, #e5524e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+[class^="mbri-"],
+[class*=" mbri-"] {
+    font-family: MobiriseIcons !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.mbri-up-down:before {
+    content: "\e986";
+}
+
+*,
+ ::after,
+ ::before {
+    box-sizing: inherit;
+}
+
+.cid-rVtXUpDj2u .card-title {
+    position: relative;
+    cursor: pointer;
+    color: #000000;
+}
+
+.display-7 {
+    font-family: 'Be Vietnam', sans-serif;
+    font-size: 1.1rem;
+}
+
+.cid-rVtXUpDj2u .link {
+    color: #999999;
+    letter-spacing: 1px;
+}
+
+.display-4 {
+    font-family: 'Be Vietnam', sans-serif;
+    font-size: 0.9rem;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+.cid-rVtXUpDj2u .card:hover {
+    cursor: pointer;
+}
+
+.cid-rVtXUpDj2u .card-wrapper:hover {
+    box-shadow: 0 30px 30px -20px rgb(50 50 50 / 30%);
+}
+
+.cid-rVtXUpDj2u .card:hover .card-box {
+    border: 1px solid #c1c1c1;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-clip: border-box;
+    border-radius: .25rem;
+}
+
+[class^="mobi-"],
+[class*=" mobi-"] {
+    font-family: 'Moririse2' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+
+.mobi-mbri-globe-2:before {
+    content: "\e934";
+}
+
+.mobi-mbri-cust-feedback:before {
+    content: "\e920";
+}
+
+.pt-1 {
+    padding-top: 0rem!important;
+}
+
+.cid-rVtXUL8ZHi {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: #ffffff;
+}
+
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.cid-rVtXUL8ZHi .card {
+    padding: 0!important;
+}
+
+.cid-rVtXUL8ZHi .card:hover {
+    cursor: pointer;
+}
+
+.cid-rVtXUL8ZHi .img-wrapper {
+    position: relative;
+    overflow: hidden;
+}
+
+.cid-rVtXUL8ZHi .card:hover .img-wrapper:before {
+    opacity: 1;
+}
+
+.cid-rVtXUL8ZHi .img-wrapper:before {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    background: #5758e0;
+    transition: all 0.3s;
+    content: '';
+    pointer-events: none;
+    z-index: 1;
+}
+
+.cid-rVtXUL8ZHi img {
+    width: 100%;
+    height: 40rem;
+    object-fit: cover;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.cid-rVtXUL8ZHi .card:hover .text-wrap {
+    opacity: 1;
+    transform: translateY(-50%);
+}
+
+.cid-rVtXUL8ZHi .text-wrap {
+    position: absolute;
+    transition: all 0.3s;
+    left: auto;
+    opacity: 0;
+    padding: 2rem;
+    width: 100%;
+    top: 50%;
+    z-index: 2;
+    transform: translateY(-45%);
+    margin-bottom: -2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text-wrap {
+    white-space: normal!important;
+}
+
+.cid-rVtXUL8ZHi .mbr-section-subtitle {
+    color: #ffffff;
+    margin-left: 92px;
+}
+
+.mbr-section-subtitle {
+    line-height: 1.3;
+}
+
+.mbr-bold {
+    font-weight: 700;
+}
+
+.cid-rVtXUL8ZHi .card-title {
+    color: #ffffff;
+}
+
+.mbr-semibold {
+    font-weight: 500;
+}
+
+.cid-rVtXUL8ZHi .card2:before {
+    background: #f49846;
+}
+
+.align-center {
+    text-align: center;
+}
+
+[class^="mbrib-"],
+[class*="mbrib-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'mobirise-icons-bold' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.cid-rVtXUpDj2u .main-subtitle {
+    color: #999999;
 }
