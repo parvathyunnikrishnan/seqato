@@ -1173,11 +1173,12 @@ textarea.form-control {
     content: "\e986";
 }
 
-*,
+
+/**,
  ::after,
  ::before {
     box-sizing: inherit;
-}
+}*/
 
 .cid-rVtXUpDj2u .card-title {
     position: relative;
@@ -1367,7 +1368,6 @@ img {
 
 [class^="mbrib-"],
 [class*="mbrib-"] {
-    /* use !important to prevent issues with browser extensions that change fonts */
     font-family: 'mobirise-icons-bold' !important;
     speak: none;
     font-style: normal;
@@ -1375,11 +1375,15 @@ img {
     font-variant: normal;
     text-transform: none;
     line-height: 1;
-    /* Better Font Rendering =========== */
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
 
 .cid-rVtXUpDj2u .main-subtitle {
     color: #999999;
+    width: 610px;
+}
+
+#fnt-ds:before {
+    display: none;
 }
