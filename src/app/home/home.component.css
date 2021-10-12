@@ -1141,12 +1141,12 @@ textarea.form-control {
 
 .cid-rVtXUpDj2u .card-box {
     border: 1px solid transparent;
-    padding: 2rem 1rem;
+    padding: 0rem 1rem;
     transition: all 0.3s;
 }
 
 .cid-rVtXUpDj2u .mbr-iconfont {
-    font-size: 4rem;
+    font-size: 3rem;
     color: #5758e0;
     min-width: 100px;
     margin-bottom: 2rem;
@@ -1390,4 +1390,18 @@ img {
 
 .btn-social i {
     margin-top: 5px;
+}
+
+.flexslider .slides img {
+    height: 100vh;
+    object-fit: cover;
+    margin: auto;
+}
+
+.cid-rVtXUpDj2u {
+    padding-top: 30px;
+}
+
+.cid-rVtXUpDj2u .card {
+    width: 350px;
 }
