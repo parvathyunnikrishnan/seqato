@@ -970,7 +970,7 @@ textarea.form-control {
 
 .display-7 {
     font-family: 'Be Vietnam', sans-serif;
-    font-size: 1.1rem;
+    font-size: 1.1rem !important;
     /*line-height: 1.5;*/
 }
 
@@ -1458,12 +1458,12 @@ img {
     padding-bottom: 0rem!important;
 }
 
-.card-title {
-    font-size: 16px;
+.display-5 {
+    font-size: 16px !important;
 }
 
-.card-text {
-    font-size: 15px;
+.display-7.card-text {
+    font-size: 15px !important;
 }
 
 .mb-2 {
